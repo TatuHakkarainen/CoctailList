@@ -1,38 +1,52 @@
-.App {
+.cocktail-info img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+header{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #00000011;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-container{
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p{
+  margin: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+button{
+  background-color: #000000;
   color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 400px) {
+  .App {
+    margin: 10px;
+    max-width: 90%;
   }
 }
